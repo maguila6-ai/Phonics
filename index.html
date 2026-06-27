@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonics Fun Safari Adventure</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- START SCREEN -->
+
+    <div id="startScreen">
+
+        <img
+            src="images/giraffe.png"
+            class="heroAnimal"
+            alt="Giraffe">
+
+        <h1>🦒 Phonics Fun Safari Adventure 🦁</h1>
+
+        <p class="welcomeText">
+            Let's learn letter sounds with our safari friends!
+        </p>
+
+        <button onclick="startGame()">
+            START SAFARI
+        </button>
+
+    </div>
+
+    <!-- GAME SCREEN -->
+
+    <div id="gameScreen">
+
+        <div class="gameLayout">
+
+            <img
+                id="animalFriend"
+                src="images/giraffe.png"
+                alt="Safari Friend">
+
+            <div class="game-card">
+
+                <div id="speechBubble">
+                    Can you find the letter?
+                </div>
+
+                <h2>What letter do you see?</h2>
+
+                <div id="letter"></div>
+
+                <div id="choices"></div>
+
+                <div id="feedback"></div>
+
+                <div class="score-box">
+                    ⭐ Score:
+                    <span id="score">0</span>
+                </div>
+
+                <button onclick="nextQuestion()">
+                    Next Question
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

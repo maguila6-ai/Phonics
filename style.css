@@ -1,0 +1,192 @@
+body {
+
+    background-color: #FFCCBC;
+
+    margin: 0;
+
+    text-align: center;
+
+    font-family: "Comic Sans MS", Arial, sans-serif;
+}
+
+/* START SCREEN */
+
+#startScreen {
+
+    padding-top: 50px;
+}
+
+.heroAnimal {
+
+    width: 300px;
+
+    animation: bounce 1.5s infinite alternate;
+}
+
+.welcomeText {
+
+    font-size: 1.5rem;
+
+    color: #6D4C41;
+}
+
+h1 {
+
+    color: #6D4C41;
+
+    font-size: 3rem;
+}
+
+/* GAME SCREEN */
+
+#gameScreen {
+
+    display: none;
+}
+
+.gameLayout {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 40px;
+
+    padding: 40px;
+
+    flex-wrap: wrap;
+}
+
+/* SIDE ANIMAL */
+
+#animalFriend {
+
+    width: 250px;
+
+    animation: bounce 1.2s infinite alternate;
+}
+
+/* GAME CARD */
+
+.game-card {
+
+    background-color: #4DDEEA;
+
+    width: 500px;
+
+    padding: 30px;
+
+    border-radius: 30px;
+
+    box-shadow: 0px 6px 15px rgba(0,0,0,.15);
+
+    transition: opacity .5s ease;
+}
+
+/* SPEECH BUBBLE */
+
+#speechBubble {
+
+    background-color: #F48FB1;
+
+    color: white;
+
+    padding: 15px;
+
+    border-radius: 20px;
+
+    font-size: 1.2rem;
+
+    margin-bottom: 20px;
+
+    font-weight: bold;
+}
+
+.game-card h2 {
+
+    color: white;
+}
+
+/* LETTER */
+
+#letter {
+
+    font-size: 8rem;
+
+    color: #FFEE58;
+
+    font-weight: bold;
+
+    margin: 20px;
+}
+
+/* BUTTONS */
+
+button {
+
+    background-color: #FFEE58;
+
+    color: #6D4C41;
+
+    border: none;
+
+    border-radius: 20px;
+
+    padding: 15px 30px;
+
+    margin: 10px;
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+button:hover {
+
+    transform: scale(1.05);
+}
+
+/* FEEDBACK */
+
+#feedback {
+
+    color: white;
+
+    font-size: 2rem;
+
+    min-height: 50px;
+
+    font-weight: bold;
+}
+
+/* SCORE */
+
+.score-box {
+
+    color: white;
+
+    font-size: 1.8rem;
+
+    margin: 20px;
+}
+
+/* BOUNCE ANIMATION */
+
+@keyframes bounce {
+
+    from {
+
+        transform: translateY(0px);
+    }
+
+    to {
+
+        transform: translateY(-15px);
+    }
+}
