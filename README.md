@@ -18,33 +18,22 @@ Traditional phonics instruction can sometimes feel repetitive or unengaging for 
 
 ## Features
 
-### Match the Sound
-Children listen to a phonics sound and select the correct letter or letter combination.
+* Random letter generation
+* Safari animal images
+* Letter sound audio
+* Interactive multiple-choice buttons
+* Score tracking
+* Positive feedback messages
 
-### Interactive Feedback
-- Sound effects
-- Animations
-- Visual cues
-- Immediate response to answers
+## Technologies Used
 
-### Reward System
-Players earn:
-- Stars
-- Badges
-- Achievement rewards
+* HTML
+* CSS
+* JavaScript
 
-### Child-Friendly Design
-- Simple navigation
-- Bright and colorful visuals
-- Easy-to-read text
-- Accessible gameplay
+## How to Run
 
-## Gameplay
-
-1. Start the game from the main menu.
-2. Select a learning activity.
-3. Listen to the phonics sound.
-4. Choose the correct answer.
-5. Receive feedback and rewards.
-6. Continue progressing through activities to improve phonics skills.
-
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open `index.html` in a web browser.
+4. Click **Start Safari** to begin playing.
